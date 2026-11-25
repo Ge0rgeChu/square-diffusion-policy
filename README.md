@@ -10,7 +10,7 @@ Use Ubuntu 22.04 or WSL2, Python 3.10, Git, CMake, a C++ compiler, uv and EGL or
 uv venv --python 3.10 .venv
 uv pip install --python .venv/bin/python -r requirements.txt
 source .venv/bin/activate
-python diffusion_policy.py --dataset_path examples/square-demo.hdf5 --gradient_steps 1 --batch_size 2 --device cpu --results_dir runs/demo
+python diffusion_policy.py --dataset_path examples/square-demo.hdf5 --gradient_steps 1 --batch_size 2 --eval_episodes 1 --max_episode_steps 2 --diffusion_steps 3 --device cpu --results_dir runs/demo
 ```
 
 ## Full dataset and experiments
