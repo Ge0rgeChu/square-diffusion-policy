@@ -1,0 +1,127 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+
+Loading lowdim data:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading lowdim data:  25%|██▌       | 1/4 [00:00<00:00,  5.87it/s]
+Loading lowdim data:  75%|███████▌  | 3/4 [00:00<00:00, 10.48it/s]
+Loading lowdim data: 100%|██████████| 4/4 [00:00<00:00, 10.60it/s]
+
+Loading image data:   0%|          | 0/60308 [00:00<?, ?it/s]
+Loading image data:   3%|▎         | 1666/60308 [00:01<00:35, 1665.91it/s]
+Loading image data:   6%|▌         | 3446/60308 [00:02<00:32, 1732.74it/s]
+Loading image data:   9%|▊         | 5180/60308 [00:03<00:32, 1706.60it/s]
+Loading image data:  12%|█▏        | 6976/60308 [00:04<00:30, 1741.38it/s]
+Loading image data:  15%|█▍        | 8750/60308 [00:05<00:29, 1753.05it/s]
+Loading image data:  17%|█▋        | 10540/60308 [00:06<00:28, 1765.32it/s]
+Loading image data:  20%|██        | 12314/60308 [00:07<00:27, 1768.05it/s]
+Loading image data:  23%|██▎       | 14084/60308 [00:08<00:26, 1768.48it/s]
+Loading image data:  26%|██▋       | 15861/60308 [00:09<00:25, 1770.04it/s]
+Loading image data:  29%|██▉       | 17638/60308 [00:10<00:24, 1772.12it/s]
+Loading image data:  32%|███▏      | 19411/60308 [00:11<00:23, 1767.89it/s]
+Loading image data:  35%|███▌      | 21187/60308 [00:12<00:22, 1770.11it/s]
+Loading image data:  38%|███▊      | 22960/60308 [00:13<00:21, 1763.76it/s]
+Loading image data:  41%|████      | 24724/60308 [00:14<00:20, 1763.40it/s]
+Loading image data:  44%|████▍     | 26488/60308 [00:15<00:19, 1761.92it/s]
+Loading image data:  47%|████▋     | 28250/60308 [00:16<00:18, 1757.64it/s]
+Loading image data:  50%|████▉     | 30008/60308 [00:17<00:17, 1757.29it/s]
+Loading image data:  53%|█████▎    | 31766/60308 [00:18<00:16, 1751.55it/s]
+Loading image data:  56%|█████▌    | 33527/60308 [00:19<00:15, 1754.15it/s]
+Loading image data:  59%|█████▊    | 35282/60308 [00:20<00:14, 1754.09it/s]
+Loading image data:  61%|██████▏   | 37038/60308 [00:21<00:13, 1747.96it/s]
+Loading image data:  64%|██████▍   | 38807/60308 [00:22<00:12, 1753.90it/s]
+Loading image data:  67%|██████▋   | 40563/60308 [00:23<00:11, 1749.74it/s]
+Loading image data:  70%|███████   | 42314/60308 [00:24<00:10, 1746.82it/s]
+Loading image data:  73%|███████▎  | 44076/60308 [00:25<00:09, 1750.92it/s]
+Loading image data:  76%|███████▌  | 45836/60308 [00:26<00:08, 1753.14it/s]
+Loading image data:  79%|███████▉  | 47591/60308 [00:27<00:07, 1747.17it/s]
+Loading image data:  82%|████████▏ | 49368/60308 [00:28<00:06, 1755.92it/s]
+Loading image data:  85%|████████▍ | 51131/60308 [00:29<00:05, 1757.83it/s]
+Loading image data:  88%|████████▊ | 52924/60308 [00:30<00:04, 1768.04it/s]
+Loading image data:  91%|█████████ | 54693/60308 [00:31<00:03, 1768.02it/s]
+Loading image data:  94%|█████████▎| 56462/60308 [00:32<00:02, 1767.66it/s]
+Loading image data:  97%|█████████▋| 58241/60308 [00:33<00:01, 1768.76it/s]
+Loading image data: 100%|█████████▉| 60010/60308 [00:34<00:00, 1765.13it/s]
+Loading image data: 100%|██████████| 60308/60308 [00:34<00:00, 1757.65it/s]
+Keys: ['action', 'agentview_image', 'robot0_eef_pos', 'robot0_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos'] Steps: 30154 Episodes: 200
+Total parameters: 4.17 M
+Total parameters: 22.68 M
+ROBOMIMIC WARNING(
+    No private macro file found!
+    It is recommended to use a private macro file
+    To setup, run: python .venv/lib/python3.10/site-packages/robomimic/scripts/setup_macros.py
+)
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python .venv/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Dropped Escape call with ulEscapeCode : 0x03007703
+Created environment with name NutAssemblySquare
+Action size is 7
+ROBOMIMIC WARNING(
+    No environment version found in dataset!
+    Cannot verify if dataset and installed environment versions match
+)
+[Episode 1/25] reward: 46.00 success: 1
+[Episode 2/25] reward: 0.00 success: 0
+[Episode 3/25] reward: 44.00 success: 1
+[Episode 4/25] reward: 0.00 success: 0
+[Episode 5/25] reward: 0.00 success: 0
+[Episode 6/25] reward: 0.00 success: 0
+[Episode 7/25] reward: 47.00 success: 1
+[Episode 8/25] reward: 0.00 success: 0
+[Episode 9/25] reward: 0.00 success: 0
+[Episode 10/25] reward: 0.00 success: 0
+[Episode 11/25] reward: 0.00 success: 0
+[Episode 12/25] reward: 43.00 success: 1
+[Episode 13/25] reward: 38.00 success: 1
+[Episode 14/25] reward: 44.00 success: 1
+[Episode 15/25] reward: 43.00 success: 1
+[Episode 16/25] reward: 0.00 success: 0
+[Episode 17/25] reward: 43.00 success: 1
+[Episode 18/25] reward: 48.00 success: 1
+[Episode 19/25] reward: 43.00 success: 1
+[Episode 20/25] reward: 47.00 success: 1
+[Episode 21/25] reward: 0.00 success: 0
+[Episode 22/25] reward: 23.00 success: 1
+[Episode 23/25] reward: 48.00 success: 1
+[Episode 24/25] reward: 28.00 success: 1
+[Episode 25/25] reward: 43.00 success: 1
+Mean reward: 25.120 | Mean success: 0.600
+[inference][0] reuse_weight 0.0000 / seed 0.0000 / mean_reward 25.1200 / mean_success 0.6000
+Exception ignored in: <function MjRenderContext.__del__ at 0x71b81f582c20>
+Traceback (most recent call last):
+  File ".venv/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 199, in __del__
+    self.gl_ctx.free()
+  File ".venv/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 150, in free
+    EGL.eglDestroyContext(EGL_DISPLAY, self._context)
+  File ".venv/lib/python3.10/site-packages/OpenGL/platform/baseplatform.py", line 487, in __call__
+    return self(*args, **named)
+  File ".venv/lib/python3.10/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglDestroyContext,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x71b8394ffbc0>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x71b8394ff3c0>,
+	),
+	result = 0
+)
+Exception ignored in: <function EGLGLContext.__del__ at 0x71b81f582a70>
+Traceback (most recent call last):
+  File ".venv/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 155, in __del__
+    self.free()
+  File ".venv/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 150, in free
+    EGL.eglDestroyContext(EGL_DISPLAY, self._context)
+  File ".venv/lib/python3.10/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglDestroyContext,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x71b8394ffbc0>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x71b8394ff3c0>,
+	),
+	result = 0
+)

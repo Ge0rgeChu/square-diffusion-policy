@@ -1,0 +1,17 @@
+numpy==1.26.4
+gym==0.26.2
+mujoco==3.1.6
+zarr==2.16.1
+numcodecs==0.13.1
+numba==0.59.1
+h5py==3.16.0
+imagecodecs==2025.3.30
+tqdm==4.70.1
+robosuite==1.4.1
+huggingface-hub==2.1.1
+matplotlib==3.10.9
+opencv-python==4.11.0.86
+torch==2.5.1
+torchvision==0.20.1
+robomimic @ git+https://github.com/ARISE-Initiative/robomimic.git@7c66e7a41b5d9dcc905b1a68346bfee1b49b79c9
+egl-probe @ git+https://github.com/StanfordVL/egl_probe.git@3ddf90db69264de2c621af567bfc557849126cff
